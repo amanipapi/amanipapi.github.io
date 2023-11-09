@@ -1,0 +1,79 @@
+/* Add your styles for the website here */
+/* Example styles for collapsible elements */
+.collapsible {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.collapsible.active {
+    background-color: #2980b9;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0;
+    /* border-left: 3px solid #2980b9; */
+}
+
+.chapter {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0;
+    /* border-left: 3px solid #2980b9; */
+}
+
+.content p {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Disable text selection */
+body {
+    user-select: none;
+}
+
+/* Centering the title and language selection */
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#site-title {
+    font-size: 32px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.language-selection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Styling the language selection dropdown */
+.language-selection select {
+    padding: 10px;
+    border: 1px solid #3498db;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    width: 200px;
+}
+
+.language-selection select:hover {
+    background-color: #e0e0e0;
+}
+
