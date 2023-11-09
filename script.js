@@ -1,3 +1,8 @@
+// Disable right-click
+window.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     const languageSelect = document.getElementById("language-select");
     const contentParagraphs = document.querySelectorAll("[data-lang]");
